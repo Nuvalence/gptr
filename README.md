@@ -1,8 +1,7 @@
 # GCP Permission-to-Roles Utility
 
 Rather than sorting through [Google's documentation](https://cloud.google.com/iam/docs/permissions-reference)
-to find a role that contains the permission you need, simply pass the permission as an argument to get 
-the list of roles that contain that permissionl  
+to find a role that contains the permission you need, simply pass the permission as an argument to get the list of roles that contain that permission
 
 `gptr <some.google.iam-permission>`
 
@@ -33,3 +32,4 @@ using the instructions above and use the resulting binary.
 ## Future Work
 - Implement fuzzy search
 - Tab completion
+- Dynamically update map when roles update
