@@ -18,7 +18,7 @@ Storage HMAC Key Admin (roles/storage.hmacKeyAdmin)
 ```
 
 ## Build
-Using the [correct operating system paramters](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63) for your environment, run this command.
+Using the [correct operating system parameters](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63) for your environment, run this command.
 
 `env GOOS=<your-os> GOARCH=<your-arch> go build -o bin/gptr-<your-os><version> cmd/gptr/main.go`
 
